@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
+    'Doctrine\\DBAL' => array($vendorDir . '/doctrine/dbal/lib'),
+    'Doctrine\\Common' => array($vendorDir . '/doctrine/common/lib'),
 );

@@ -11,6 +11,10 @@ class ComposerStaticInit03f756f46f9d01a836dd60f6ce1ca51c
     );
 
     public static $prefixLengthsPsr4 = array (
+        'V' => 
+        array (
+            'VoApi\\' => 6,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -28,6 +32,10 @@ class ComposerStaticInit03f756f46f9d01a836dd60f6ce1ca51c
     );
 
     public static $prefixDirsPsr4 = array (
+        'VoApi\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -68,6 +76,17 @@ class ComposerStaticInit03f756f46f9d01a836dd60f6ce1ca51c
             'Pimple' => 
             array (
                 0 => __DIR__ . '/..' . '/pimple/pimple/lib',
+            ),
+        ),
+        'D' => 
+        array (
+            'Doctrine\\DBAL' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/dbal/lib',
+            ),
+            'Doctrine\\Common' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/common/lib',
             ),
         ),
     );
